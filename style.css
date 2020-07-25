@@ -1,0 +1,90 @@
+@media (min-width: 320px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 480px) {
+  body {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+   body {
+     font-size: 45px;
+   }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    font-size: 80px;
+  }
+
+.nav__link {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+    text-align: left;
+}
+
+.nav__link_active {
+	color: #f30;
+}
+
+.nav__link_red {
+  color: red;
+}
+
+.main {
+  background: #778899;
+  }
+
+.main__title {
+  font-family: 'EB Garamond', serif;
+  text-align: left;
+  color: green;
+}
+
+.main__list{
+  background: #ffc60a;
+}
+
+.item__subtitle {
+     color: blue;
+}
+
+.item__text {
+    background: #8a1414;
+    width: 240px;
+    padding: 6px;
+    border: 5px solid black;
+}
+
+.item__text_white {
+    color: white;
+}
+
+.main__register   {
+  background: #a5b991;
+  }
+
+  .main__search-form {
+    color: #eb002a;
+  }
+
+  .footer  {
+    background: #304860;
+     color: red;
+}
